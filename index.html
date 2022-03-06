@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="stylemob.css" />
+
+  <title>Document</title>
+
+  </head>
+
+ <body>
+  <div class="container">
+    <div id="header">
+      <h1>Pixabay Image Search</h1>
+
+      <form id="form">
+        <select name="sel1" id="color">
+          <option value="">--Any color--</option>
+          <option>grayscale</option>
+          <option>transparent</option>
+          <option>red</option>
+          <option>orange</option>
+          <option>yellow</option>
+          <option>green</option>
+          <option>turquoise</option>
+          <option>blue</option>
+          <option>lilac</option>
+          <option>pink</option>
+          <option>white</option>
+          <option>gray</option>
+          <option>black</option>
+          <option>brown</option>
+
+        </select>
+
+        <input type="search" id="se" />
+
+        <button id="b" type="button" onclick="get()">Search</button>
+      </form>
+
+
+
+    </div>
+    <div id="content">
+      <ul id="pics-list">
+        <template id="pics-template">
+          <li id="lii">
+            <img src="" class="pic-image" />
+            <p class="pic-tag"></p>
+            <p class="pic-user">This tacken by:</p>
+          </li>
+        </template>
+      </ul>
+    </div>
+    <button disabled id="previous" type="button" onclick="previous()">
+      previous
+    </button>
+    <button disabled id="next" type="button" onclick="next()">next</button>
+  </div>
+
+
+ </body>
+ <script src="script.js"></script>
+
+</html>

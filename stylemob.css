@@ -1,0 +1,35 @@
+@media screen and (max-width: 600px) {
+  .container {
+    display: block;
+    width: 400px;
+    clear: both;
+  }
+
+  #color {
+    margin: 10px 0 5px 10px;
+    width: 300px;
+  }
+
+  #search {
+    margin: 10px 0 5px 10px;
+    width: 300px;
+  }
+
+  #se {
+    margin: 10px 0 5px 10px;
+    width: 300px;
+  }
+
+  img {
+    width: 350px;
+    height: 200px;
+  }
+
+  .previous {
+    margin: 10px 105px;
+  }
+
+  .next {
+    margin: 10px 10px;
+  }
+}
